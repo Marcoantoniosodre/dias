@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Loja Virtual</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 220px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nome{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.preco{
+    color: green;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Loja Virtual</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="notebook.png">
+
+        <div class="nome">
+            Notebook Gamer
+        </div>
+
+        <div class="preco">
+            R$ 4500
+        </div>
+
+        <button>Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="mouse.png">
+
+        <div class="nome">
+            Mouse RGB
+        </div>
+
+        <div class="preco">
+            R$ 120
+        </div>
+
+        <button>Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="teclado.png">
+
+        <div class="nome">
+            Teclado USB
+        </div>
+
+        <div class="preco">
+            R$ 350
+        </div>
+
+        <button>Comprar</button>
+    </div>
+
+</div>
+
+<script>
+
+console.log("Loja carregada com sucesso!");
+
+</script>
+
+</body>
+</html>
